@@ -1,0 +1,25 @@
+.section-itoffer__item::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: #00eaff;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section-itoffer__item {
+    position: relative;
+    padding-left: 24px;
+    
+}
+
+.section-itoffer__text {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.section-itoffer__text:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
