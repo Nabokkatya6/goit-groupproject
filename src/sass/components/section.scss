@@ -1,6 +1,19 @@
 .section-title {
     font-size: 20px;
-    font-family: "Acrom";
-    color: rgb(27, 32, 42);
-    font-weight: bold;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 30px;
+
+    @media (min-width: 768px) and (max-width: 1399px) {
+        font-size: 30px;
+    }
+
+    @media (min-width: 1400px) {
+        font-size: 48px;
+    }
+}
+
+.section-discription {
+    font-weight: 900;
+    line-height: 1.429; 
 }

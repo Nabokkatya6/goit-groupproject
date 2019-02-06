@@ -20,6 +20,14 @@ body {
     font-family: 'Acrom';
     color: rgb(27, 32, 42);
     font-size: 14px;
+
+    @media (min-width: 768px) and (max-width: 1399px) {
+        font-size: 16px;
+    }
+
+    @media (min-width: 1400px) {
+        font-size: 18px;
+    }
 }
 
      

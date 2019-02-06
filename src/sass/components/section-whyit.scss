@@ -1,19 +1,45 @@
 .section-whyit {
     background-image: url(../../images/map_mobile.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right 610px;
     padding-bottom: 0;
-        
+    
+    @media (min-width: 768px) {
+        background-image: none;}
 }
+
+.section-whyit__shadowbox {
+
+    @media (min-width: 768px) {
+        width: 700px;
+        height: 543px;
+        box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16);
+
+    }
+
+    @media (min-width: 768px) {
+        background-image: url(../../images/map.png);
+        background-repeat: no-repeat;
+        background-position: right, bottom;}
+}
+
+.section-whyit__list {
+
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
 
 .section-whyit-facts {
     color: #00eaff;
     font-weight: 700;
     font-size: 25px;
-    font-weight: bold;
     line-height: 0.833;
-    margin-top: 16px;
-    margin-bottom: 4px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .section-whyit-facts__description {
@@ -25,19 +51,20 @@
     
 .section-whyit__item{
     padding-left: 15px;
+
+    @media (min-width: 768px) {
+        flex-basis: 175px;
+        padding: 0;
+        
+    }
 }
 
-.loly {
+.section-whyit-facts__sbox {
     display: flex;
     justify-content: space-between;
 }
 
-.section-whyit-facts--first {
-    width: 128px;
-    
-    
-}
-.section-whyit-facts--second {
+.section-whyit-facts__small {
     width: 128px;
     
     
@@ -46,4 +73,9 @@
 .section-whyit-facts__description--small {
     font-size: 10px;
     margin: 0;
+}
+
+.section-whyit__item--title {
+    font-weight: bold;
+    line-height: 1.429; 
 }
