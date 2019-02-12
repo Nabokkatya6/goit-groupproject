@@ -1,0 +1,19 @@
+.next-p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color:#464b5c;
+    padding-bottom: 30px;
+    padding-top: 14px;
+}
+@media screen and (min-width: 768px) {
+.next-p {
+    padding-bottom: 38px;
+    }
+}
+@media screen and (min-width: 1340px) {
+.next-p{
+    margin-left: 860px;
+    font-size: 20px;
+    }
+}
